@@ -1,0 +1,6 @@
+framework module Pods_Face8uyTests {
+  umbrella header "Pods-Face8uyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>86675575110-4nstrkft702h5afthhohrlof0c1gbe04.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.86675575110-4nstrkft702h5afthhohrlof0c1gbe04</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBULQGGc8LJsGGz1A1M9e9T-DaDTJT93sg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>86675575110</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>HKW.Face8uy</string>
+	<key>PROJECT_ID</key>
+	<string>face8uy</string>
+	<key>STORAGE_BUCKET</key>
+	<string>face8uy.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:86675575110:ios:b7e94fc98c835957049547</string>
+	<key>DATABASE_URL</key>
+	<string>https://face8uy.firebaseio.com</string>
+</dict>
+</plist>
