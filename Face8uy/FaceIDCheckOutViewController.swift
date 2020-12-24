@@ -96,7 +96,7 @@ class FaceIDCheckOutViewController: UIViewController, UIImagePickerControllerDel
             let uploadData = image.jpegData(compressionQuality: 1.0)
             UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
             let dataPath = ["image_file":uploadData!]
-            requestWithFormData(urlString: "https://api.face8.ai/api/faceset/search", parameters: ["api_key": "23f13a516fba443796cc89daecd81509","api_secret": "f80e44bca218478ea17e5db6ff42fbad","faceset_token": "7c33af4267574e9c9e9337190fdfcc3d","face_tokens":"test","face_detect": "0"], dataPath: dataPath) { (data) in
+            requestWithFormData(urlString: "https://api.face8.ai/api/faceset/search", parameters: ["api_key": "\(Secret.api_key)","api_secret": "\(Secret.api_secret)","faceset_token": "7c33af4267574e9c9e9337190fdfcc3d","face_tokens":"test","face_detect": "0"], dataPath: dataPath) { (data) in
                 DispatchQueue.main.async {
                     print(data)
                 }

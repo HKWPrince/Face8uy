@@ -86,7 +86,7 @@ class SignUpViewController: UIViewController,UITextFieldDelegate, UIImagePickerC
             let uploadData = image.jpegData(compressionQuality: 1.0)
             UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
             let dataPath = ["image_file":uploadData!]
-            requestWithFormData(urlString: "https://api.face8.ai/api/detect", parameters: ["api_key": "23f13a516fba443796cc89daecd81509","api_secret": "f80e44bca218478ea17e5db6ff42fbad","face_detect": "0"], dataPath: dataPath) { (data) in
+            requestWithFormData(urlString: "https://api.face8.ai/api/detect", parameters: ["api_key": "\(Secret.api_key)","api_secret": "\(Secret.api_secret)","face_detect": "0"], dataPath: dataPath) { (data) in
                 DispatchQueue.main.async {
                     print(data)
                 }
@@ -234,46 +234,10 @@ class SignUpViewController: UIViewController,UITextFieldDelegate, UIImagePickerC
             
         }
 
-        /*
-        
-        //Add Face
-        requestWithFormDataONLY(urlString: "https://api.face8.ai/api/faceset/addface", parameters: ["api_key": "23f13a516fba443796cc89daecd81509", "api_secret": "f80e44bca218478ea17e5db6ff42fbad", "faceset_token":"7c33af4267574e9c9e9337190fdfcc3d","face_tokens": "\(SignUpViewController.faceToken)"]) { (data) in
-            DispatchQueue.main.async {
-                print(data)
-            }
-            print("first Stage")
-        }
-        //SetUP ID
-        requestWithFormDataONLY(urlString: "https://api.face8.ai/api/face/setuserid", parameters: ["api_key": "23f13a516fba443796cc89daecd81509", "api_secret": "f80e44bca218478ea17e5db6ff42fbad", "face_token": "\(SignUpViewController.faceToken)", "user_id":"\(self.name.text!)"]) { (data) in
-            DispatchQueue.main.async {
-                print(data)
-            }
-            print("second Stage")
-        
-        }
+       
         
         
-        
-        
-        */
-        
-        
-        /*
-    
-        requestWithJSONBody(urlString: "https://api.face8.ai/api/faceset/addface", parameters: ["api_key": "23f13a516fba443796cc89daecd81509","api_secret": "f80e44bca218478ea17e5db6ff42fbad","faceset_token":"7c33af4267574e9c9e9337190fdfcc3d","face_tokens": "\(SignUpViewController.faceToken)"]) { (data) in
-                DispatchQueue.main.async {
-                print(data)
-            }
-        }
-        print("SetUP Finish")
-        
-        requestWithJSONBody(urlString: "https://api.face8.ai/api/face/setuserid", parameters: ["api_key": "23f13a516fba443796cc89daecd81509","api_secret": "f80e44bca218478ea17e5db6ff42fbad","face_token": SignUpViewController.faceToken,"user_id":"\(self.name.text!)"]) { (data) in
-                DispatchQueue.main.async {
-                print(self.name.text!)
-                print(data)
-            }
-        }
-        */
+       
   
         
     }

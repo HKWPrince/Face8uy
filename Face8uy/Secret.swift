@@ -7,3 +7,10 @@
 //
 
 import Foundation
+class Secret
+{
+    static let api_key:String = "23f13a516fba443796cc89daecd81509"
+
+    static let api_secret:String = "f80e44bca218478ea17e5db6ff42fbad"
+}
+

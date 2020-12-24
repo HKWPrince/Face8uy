@@ -43,6 +43,7 @@
 		333BBB1625078E3B00417898 /* FRIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333BBB1525078E3B00417898 /* FRIViewController.swift */; };
 		333BBB1825078F1B00417898 /* SATViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333BBB1725078F1B00417898 /* SATViewController.swift */; };
 		333BBB1B25078F4500417898 /* SUNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333BBB1A25078F4500417898 /* SUNViewController.swift */; };
+		3346C5C3259337910053A7D9 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3346C5C2259337910053A7D9 /* Secret.swift */; };
 		33578E6825309C0D00336B44 /* BusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33578E6725309C0D00336B44 /* BusAPI.swift */; };
 		336118662532032000D1FD79 /* BusTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336118652532032000D1FD79 /* BusTimeViewController.swift */; };
 		3361186E2532115E00D1FD79 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361186D2532115E00D1FD79 /* Bus.swift */; };
@@ -128,6 +129,7 @@
 		333BBB1525078E3B00417898 /* FRIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRIViewController.swift; sourceTree = "<group>"; };
 		333BBB1725078F1B00417898 /* SATViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATViewController.swift; sourceTree = "<group>"; };
 		333BBB1A25078F4500417898 /* SUNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUNViewController.swift; sourceTree = "<group>"; };
+		3346C5C2259337910053A7D9 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		33578E6725309C0D00336B44 /* BusAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusAPI.swift; sourceTree = "<group>"; };
 		336118652532032000D1FD79 /* BusTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTimeViewController.swift; sourceTree = "<group>"; };
 		3361186D2532115E00D1FD79 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				333BBB1725078F1B00417898 /* SATViewController.swift */,
 				333BBB1A25078F4500417898 /* SUNViewController.swift */,
 				33BA7AC32507F357000B8EE9 /* CheckOutTableViewCell.swift */,
+				3346C5C2259337910053A7D9 /* Secret.swift */,
 			);
 			path = Face8uy;
 			sourceTree = "<group>";
@@ -604,6 +607,7 @@
 				3377232724FC0B81001B4B74 /* DetailOfMerchandiseViewController.swift in Sources */,
 				333BBB1425078E1700417898 /* THUViewController.swift in Sources */,
 				333BBB062507526A00417898 /* TimeAnalysisViewController.swift in Sources */,
+				3346C5C3259337910053A7D9 /* Secret.swift in Sources */,
 				333BBACE2503C91900417898 /* FaceIDCheckOutViewController.swift in Sources */,
 				333BBAEC2505FAE700417898 /* MerchandiseListControl.swift in Sources */,
 				333BBAF02506327800417898 /* SeachTableViewCell.swift in Sources */,
